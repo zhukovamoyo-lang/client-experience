@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клієнтський досвід - Головна сторінка</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Клієнтський досвід</h1>
+        <p class="header__subtitle">Управління клієнтським досвідом та розвиток бізнесу</p>
+    </header>
+
+    <main class="main">
+        <div class="blocks-container">
+            <!-- Блок 1 -->
+            <div class="block">
+                <div class="block__buttons">
+                    <button class="button" data-content="strategy-cx">
+                        <span class="button__text">Стратегія СХ - системна функція бізнесу</span>
+                    </button>
+                    <button class="button" data-content="responsibility-center">
+                        <span class="button__text">Центр відповідальності</span>
+                    </button>
+                    <button class="button" data-content="kpi">
+                        <span class="button__text">KPI</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Блок 2 -->
+            <div class="block">
+                <div class="block__buttons">
+                    <button class="button" data-content="clients">
+                        <span class="button__text">Клієнти</span>
+                    </button>
+                    <button class="button" data-content="cjm">
+                        <span class="button__text">CJM</span>
+                    </button>
+                    <button class="button" data-content="personas">
+                        <span class="button__text">Персони</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Блок 3 -->
+            <div class="block">
+                <div class="block__buttons">
+                    <button class="button" data-content="personnel">
+                        <span class="button__text">Персонал</span>
+                    </button>
+                    <button class="button" data-content="processes">
+                        <span class="button__text">Процеси</span>
+                    </button>
+                    <button class="button" data-content="communication">
+                        <span class="button__text">Комунікація</span>
+                    </button>
+                    <button class="button" data-content="standards">
+                        <span class="button__text">Стандарти</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Блок 5 -->
+            <div class="block">
+                <div class="block__buttons">
+                    <button class="button" data-content="voc">
+                        <span class="button__text">VoC</span>
+                    </button>
+                    <button class="button" data-content="feedback">
+                        <span class="button__text">Зворотній зв'язок: збір та аналіз</span>
+                    </button>
+                    <button class="button" data-content="research">
+                        <span class="button__text">Дослідження</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Блок 6 -->
+            <div class="block">
+                <div class="block__buttons">
+                    <button class="button" data-content="tech-support">
+                        <span class="button__text">Технологічна підтримка</span>
+                    </button>
+                    <button class="button" data-content="crm">
+                        <span class="button__text">CRM</span>
+                    </button>
+                    <button class="button" data-content="analytics">
+                        <span class="button__text">Аналітика баз</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Блок 7 -->
+            <div class="block">
+                <div class="block__buttons">
+                    <button class="button" data-content="cx-management">
+                        <span class="button__text">Управління CX</span>
+                    </button>
+                    <button class="button" data-content="innovation">
+                        <span class="button__text">Впровадження інновацій</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Модальне вікно для вмісту кнопок -->
+    <div class="modal" id="contentModal">
+        <div class="modal__overlay"></div>
+        <div class="modal__content">
+            <button class="modal__close" id="closeModal">&times;</button>
+            <div class="modal__body" id="modalBody">
+                <!-- Вміст буде додано через JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
