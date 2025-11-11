@@ -21,8 +21,8 @@ const buttonContent = {
             </ul>
         `
     },
-    'feedback': {
-        title: 'Зворотній зв\'язок: збір та аналіз',
+    'voc': {
+        title: 'VoC (Voice of Customer)',
         content: `
             <ul>
                 <li>Соціальна мережи</li>
@@ -99,9 +99,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 'Відгуки на сайті MOYO під товаром',
                 'Відгук про магазин/мережу магазинів',
                 'Відгуки в магазині (App Store, Google Market) при скачуванні застосунку',
-                'Відгуки https://hotline.ua/ua/yp/11054/reviews/',
+                'Відгуки Hotline',
                 'Відгуки Google maps',
-                'Відгуки https://www.otzyvua.net/set-magazinov-moyo',
+                'Відгуки Vidhuk',
                 'Відгуки Prom',
                 'Відгуки Maudau',
                 'Відгук з ОК'
